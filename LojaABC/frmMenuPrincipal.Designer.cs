@@ -97,6 +97,7 @@ namespace LojaABC
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -159,12 +160,13 @@ namespace LojaABC
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(672, 513);
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button9.Location = new System.Drawing.Point(12, 504);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(173, 60);
+            this.button9.Size = new System.Drawing.Size(113, 38);
             this.button9.TabIndex = 8;
             this.button9.Text = "&Voltar";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button9.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button9.UseVisualStyleBackColor = true;
             // 
