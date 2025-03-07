@@ -66,5 +66,10 @@ namespace LojaABC
         {
 
         }
+
+        private void lblNome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
