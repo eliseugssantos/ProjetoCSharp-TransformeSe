@@ -64,7 +64,7 @@ namespace LojaABC
             this.lblCidade = new System.Windows.Forms.Label();
             this.txtComplemento = new System.Windows.Forms.TextBox();
             this.lblComplemento = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
             this.lblNumero = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
             this.mskCEP = new System.Windows.Forms.MaskedTextBox();
@@ -366,7 +366,7 @@ namespace LojaABC
             this.gpbEndereço.Controls.Add(this.lblCidade);
             this.gpbEndereço.Controls.Add(this.txtComplemento);
             this.gpbEndereço.Controls.Add(this.lblComplemento);
-            this.gpbEndereço.Controls.Add(this.textBox4);
+            this.gpbEndereço.Controls.Add(this.txtNumero);
             this.gpbEndereço.Controls.Add(this.lblNumero);
             this.gpbEndereço.Controls.Add(this.lblCEP);
             this.gpbEndereço.Controls.Add(this.mskCEP);
@@ -477,13 +477,13 @@ namespace LojaABC
             this.lblComplemento.TabIndex = 23;
             this.lblComplemento.Text = "Complemento";
             // 
-            // textBox4
+            // txtNumero
             // 
-            this.textBox4.Location = new System.Drawing.Point(672, 22);
-            this.textBox4.MaxLength = 25;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(63, 26);
-            this.textBox4.TabIndex = 14;
+            this.txtNumero.Location = new System.Drawing.Point(672, 22);
+            this.txtNumero.MaxLength = 25;
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(63, 26);
+            this.txtNumero.TabIndex = 14;
             // 
             // lblNumero
             // 
@@ -579,7 +579,7 @@ namespace LojaABC
         private System.Windows.Forms.Label lblLogradouro;
         private System.Windows.Forms.TextBox txtComplemento;
         private System.Windows.Forms.Label lblComplemento;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Label lblCEP;
         private System.Windows.Forms.MaskedTextBox mskCEP;
