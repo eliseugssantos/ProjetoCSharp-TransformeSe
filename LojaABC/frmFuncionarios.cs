@@ -27,47 +27,37 @@ namespace LojaABC
 
         }
 
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void lblNome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+         frmPesquisarFuncionarios abrir = new frmPesquisarFuncionarios();
+            abrir.Show();
+        }
+
+        private void frmFuncionarios_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNovo_Click(object sender, EventArgs e)
         {
 
         }

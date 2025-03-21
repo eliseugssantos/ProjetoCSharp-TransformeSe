@@ -17,14 +17,18 @@ namespace LojaABC
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnVoltar_Click(object sender, EventArgs e)
         {
-
+            frmLogin abrir = new frmLogin();
+            abrir.Show();
+            this.Hide();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnFuncionarios_Click(object sender, EventArgs e)
         {
-
+            frmFuncionarios abrir = new frmFuncionarios();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

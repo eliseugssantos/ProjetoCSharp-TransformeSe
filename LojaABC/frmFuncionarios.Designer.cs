@@ -275,6 +275,7 @@ namespace LojaABC
             this.btnVoltar.TabIndex = 26;
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnPesquisar
             // 
@@ -288,7 +289,7 @@ namespace LojaABC
             this.btnPesquisar.Text = "Pes&quisar";
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPesquisar.UseVisualStyleBackColor = true;
-            this.btnPesquisar.Click += new System.EventHandler(this.button6_Click);
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnLimpar
             // 
@@ -313,7 +314,6 @@ namespace LojaABC
             this.btnExcluir.TabIndex = 23;
             this.btnExcluir.Text = "E&xcluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
-            this.btnExcluir.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnAlterar
             // 
@@ -327,7 +327,6 @@ namespace LojaABC
             this.btnAlterar.Text = "&Alterar";
             this.btnAlterar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAlterar.UseVisualStyleBackColor = true;
-            this.btnAlterar.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // btnCadastra
             // 
@@ -341,7 +340,6 @@ namespace LojaABC
             this.btnCadastra.Text = "&Cadastra";
             this.btnCadastra.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastra.UseVisualStyleBackColor = true;
-            this.btnCadastra.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnNovo
             // 
@@ -354,7 +352,7 @@ namespace LojaABC
             this.btnNovo.TabIndex = 20;
             this.btnNovo.Text = "&Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
-            this.btnNovo.Click += new System.EventHandler(this.button1_Click);
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // gpbEndereço
             // 
@@ -542,6 +540,7 @@ namespace LojaABC
             this.Name = "frmFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Funcionários";
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.gpbDadosPessoais.ResumeLayout(false);
             this.gpbDadosPessoais.PerformLayout();
             this.gpbSexo.ResumeLayout(false);
