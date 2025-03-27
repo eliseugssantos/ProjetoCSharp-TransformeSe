@@ -1,0 +1,10 @@
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.pdb

@@ -154,7 +154,6 @@
             this.rdbSomar.TabStop = true;
             this.rdbSomar.Text = "Somar";
             this.rdbSomar.UseVisualStyleBackColor = true;
-            this.rdbSomar.CheckedChanged += new System.EventHandler(this.rdbSomar_CheckedChanged);
             // 
             // btnCalcular
             // 
@@ -167,6 +166,7 @@
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpar
             // 
@@ -211,6 +211,7 @@
             this.Controls.Add(this.lblNumero1);
             this.Name = "frmCalculadora";
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.frmCalculadora_Load);
             this.gpbOperecoes.ResumeLayout(false);
             this.gpbOperecoes.PerformLayout();
             this.ResumeLayout(false);

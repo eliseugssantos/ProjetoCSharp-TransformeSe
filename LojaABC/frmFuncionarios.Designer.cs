@@ -98,7 +98,6 @@ namespace LojaABC
             this.gpbDadosPessoais.TabIndex = 0;
             this.gpbDadosPessoais.TabStop = false;
             this.gpbDadosPessoais.Text = "Dados pessoais";
-            this.gpbDadosPessoais.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lblCelular
             // 
@@ -220,7 +219,6 @@ namespace LojaABC
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(216, 26);
             this.txtNome.TabIndex = 2;
-            this.txtNome.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // lblNome
             // 
@@ -230,7 +228,6 @@ namespace LojaABC
             this.lblNome.Size = new System.Drawing.Size(51, 20);
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
-            this.lblNome.Click += new System.EventHandler(this.lblNome_Click);
             // 
             // txtCodigo
             // 
@@ -302,6 +299,7 @@ namespace LojaABC
             this.btnLimpar.TabIndex = 24;
             this.btnLimpar.Text = "L&impar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnExcluir
             // 
@@ -340,6 +338,7 @@ namespace LojaABC
             this.btnCadastra.Text = "&Cadastra";
             this.btnCadastra.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastra.UseVisualStyleBackColor = true;
+            this.btnCadastra.Click += new System.EventHandler(this.btnCadastra_Click);
             // 
             // btnNovo
             // 
@@ -464,7 +463,6 @@ namespace LojaABC
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(204, 26);
             this.txtComplemento.TabIndex = 15;
-            this.txtComplemento.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // lblComplemento
             // 
