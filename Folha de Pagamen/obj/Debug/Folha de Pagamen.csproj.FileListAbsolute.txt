@@ -8,3 +8,6 @@ C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Folha de Paga
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Folha de Pagamen\obj\Debug\Folha de Pagamen.exe
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Folha de Pagamen\obj\Debug\Folha de Pagamen.pdb
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Folha de Pagamen\obj\Debug\Folha_de_Pagamen.frmFolhaDePagamento.resources
+C:\Users\elize\Documents\Visual Studio 2022\ProjetoCSharp-TransformeSe-main\Folha de Pagamen\obj\Debug\Folha de Pagamen.csproj.AssemblyReference.cache
+C:\Users\elize\Documents\Visual Studio 2022\ProjetoCSharp-TransformeSe-main\Folha de Pagamen\obj\Debug\Folha de Pagamen.exe
+C:\Users\elize\Documents\Visual Studio 2022\ProjetoCSharp-TransformeSe-main\Folha de Pagamen\obj\Debug\Folha de Pagamen.pdb
