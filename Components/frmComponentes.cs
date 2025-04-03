@@ -34,6 +34,7 @@ namespace Components
             if (ckbLivros.Checked)
             {
                 ltbListarProdutos.Items.Add("Livros");
+                pcbImagens.Load(@".\imagens\Livro.png");
             }
             else
             {
@@ -47,6 +48,7 @@ namespace Components
             if (ckbComputador.Checked)
             {
                 ltbListarProdutos.Items.Add("Computador");
+                pcbImagens.Load(@".\imagens\computador.png");
             }
             else 
             {
@@ -60,6 +62,7 @@ namespace Components
             if (ckbMesa.Checked)
             {
                 ltbListarProdutos.Items.Add("Mesa");
+                pcbImagens.Load(@".\imagens\mesa.png");
             }
             else
             {
@@ -73,11 +76,34 @@ namespace Components
             if (ckbBanana.Checked)
             {
                 ltbListarProdutos.Items.Add("Banana");
+                pcbImagens.Load(@".\imagens\banana.png");
             }
             else 
             {
                 ltbListarProdutos.Items.Remove("Banana");
             }
+        }
+
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Title = "selelcione um imagem";
+            ofd.Filter = "Imagens|*.jpg;*.jpeg;*.png;*.bmp|Todos os arquivos|*.*";
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                pcbImagens.ImageLocation = ofd.FileName;
+                pcbImagens.Load();
+            }
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            pcbImagens.Image = null;
         }
     }
 }
