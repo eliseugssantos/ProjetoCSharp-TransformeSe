@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
 namespace LojaABC
 {
     public partial class frmFuncionarios : Form
@@ -163,6 +163,11 @@ namespace LojaABC
             IntPtr hMenu = GetSystemMenu(this.Handle, false);
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
+        }
+
+        public void cadastrarFuncionarios()
+        { 
+         
         }
     }
 }

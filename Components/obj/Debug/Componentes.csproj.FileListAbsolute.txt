@@ -2,9 +2,9 @@ C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\bi
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\bin\Debug\Components.exe
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\bin\Debug\Components.pdb
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Componentes.csproj.AssemblyReference.cache
+C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Components.frmComponentes.resources
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Components.Properties.Resources.resources
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Componentes.csproj.GenerateResource.cache
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Componentes.csproj.CoreCompileInputs.cache
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Components.exe
 C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Components.pdb
-C:\Users\eliseu.gssantos\Documents\Visual Studio 2019\TransformeSe\Components\obj\Debug\Components.frmComponentes.resources
