@@ -22,6 +22,11 @@ namespace LojaABC
         {
 
         }
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
@@ -74,7 +79,7 @@ namespace LojaABC
 
         private void btnSair_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
     }
 
