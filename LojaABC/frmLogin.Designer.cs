@@ -43,9 +43,9 @@ namespace LojaABC
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(133, 145);
+            this.pctLogo.Location = new System.Drawing.Point(125, 157);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(244, 223);
+            this.pctLogo.Size = new System.Drawing.Size(211, 229);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
@@ -54,31 +54,30 @@ namespace LojaABC
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(441, 145);
+            this.lblUsuario.Location = new System.Drawing.Point(372, 157);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(64, 20);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuário";
-            this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(445, 186);
+            this.txtUsuario.Location = new System.Drawing.Point(372, 181);
             this.txtUsuario.MaxLength = 30;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(223, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(242, 26);
             this.txtUsuario.TabIndex = 0;
             this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
             // 
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Wingdings", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.txtSenha.Location = new System.Drawing.Point(445, 276);
+            this.txtSenha.Location = new System.Drawing.Point(372, 246);
             this.txtSenha.MaxLength = 15;
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = 'l';
-            this.txtSenha.Size = new System.Drawing.Size(223, 25);
+            this.txtSenha.Size = new System.Drawing.Size(242, 25);
             this.txtSenha.TabIndex = 1;
             this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
@@ -86,18 +85,18 @@ namespace LojaABC
             // 
             this.lblSenha.AutoSize = true;
             this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(442, 253);
+            this.lblSenha.Location = new System.Drawing.Point(372, 221);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(56, 20);
             this.lblSenha.TabIndex = 3;
-            this.lblSenha.Text = "Sanha";
+            this.lblSenha.Text = "Senha";
             // 
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(444, 336);
+            this.btnEntrar.Location = new System.Drawing.Point(372, 349);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(73, 32);
+            this.btnEntrar.Size = new System.Drawing.Size(104, 37);
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "&Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -106,13 +105,13 @@ namespace LojaABC
             // btnSair
             // 
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(591, 336);
+            this.btnSair.Location = new System.Drawing.Point(510, 349);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(77, 32);
+            this.btnSair.Size = new System.Drawing.Size(104, 37);
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sai&r";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmLogin
             // 
